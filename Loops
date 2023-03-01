@@ -40,7 +40,7 @@ while number<=10:
     print(number)
     number=number+1
 
-# from 20 to 0 print 
+# Program to print from 20 to 0 print 
 
 number=20
 while number> -1:

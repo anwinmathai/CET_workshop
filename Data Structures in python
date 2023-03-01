@@ -5,6 +5,7 @@
 # 1. List
 
  #comma separated any type data in between []
+ #List is an ordered datastructure, so we can use the index
 list_a=[1,2,3,4,10]
 
 list_b=[]
@@ -23,3 +24,17 @@ print(Gamers)
 # Accessing string elements
 string="Python"
 print(string[2]) # Gives t as output
+
+#Access elements in list as per the index
+stri="asdfahahzrfdsg"
+for n in range(2,5):
+    print(stri[n])
+
+
+a=[1,2,4,9]
+
+for element in a:
+    print(a[element])
+
+
+#get even numbers in a list to another list and print it.

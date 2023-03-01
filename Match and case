@@ -14,7 +14,7 @@ match lang:
     case "Solidity":
         print("You can become a Blockchain developer")
 
-    case "Java":
+    case "Java":6
         print("You can become a mobile app developer")
     case _:
         print("The language doesn't matter, what matters is solving problems.")

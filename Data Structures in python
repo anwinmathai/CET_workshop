@@ -18,3 +18,8 @@ for n in range(1,4):
     Gamers.append(input("Enter the Gamer:"))
 
 print(Gamers)
+
+
+# Accessing string elements
+string="Python"
+print(string[2]) # Gives t as output

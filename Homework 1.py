@@ -8,7 +8,8 @@
 number1= int(input("Enter the first number:"))
 number2= int(input("Enter the second number:"))
 
-opera=input("Enter the operator:")
+opera=input("Enter the operator:") # This is the operation which is supposed to be performed
+
 if opera=="+":
     print(number1+number2)
 elif opera=="-":

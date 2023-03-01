@@ -15,5 +15,5 @@ elif opera=="-":
 elif opera=="*":
     print(number1*number2)
 else:
-    print(number1/number2)
+    print(number1/number2) #Assuming that if others are not given division is the operator
 

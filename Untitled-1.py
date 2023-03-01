@@ -1,2 +1,0 @@
-name="Jesus"
-name.lower()

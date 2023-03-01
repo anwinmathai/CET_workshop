@@ -30,3 +30,19 @@ name=input("Enter the name: ")
 for n in name:
     if n.isupper()==True:
         print(n)
+
+''' While loop'''
+#Perform a task as long as the condition is true
+#Print numbers 0-10
+
+number=0
+while number<=10:
+    print(number)
+    number=number+1
+
+# from 20 to 0 print 
+
+number=20
+while number> -1:
+    print(number)
+    number=number-1

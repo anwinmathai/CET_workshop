@@ -1,0 +1,20 @@
+''' Data structures in python'''
+
+''' Data structures are formats to store and organize data efficiency'''
+
+# 1. List
+
+ #comma separated any type data in between []
+list_a=[1,2,3,4,10]
+
+list_b=[]
+list_b.append(10)
+print(list_b)
+
+
+# get 3 numbers from user in a list named Gamers
+Gamers=[]
+for n in range(1,4):
+    Gamers.append(input("Enter the Gamer:"))
+
+print(Gamers)

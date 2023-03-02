@@ -32,7 +32,7 @@ for n in range(2,5):
 
 
 a=[1,2,4,9]
-
+element=0
 for element in a:
     print(a[element])
 
@@ -55,3 +55,13 @@ Immutable dataset. So constants are saved here.
 '''
 a=(1,2,3) #In the paranthesis
 print(a[1]) #print 2
+
+'''
+3. Dictionary
+Used to save key:value pair
+any datatype can be used as key.
+'''
+marks={"Radha":60, "Krishna":5} # Key comes first, then value.
+
+#if we want to find the mark of a corresponding key lets say Radha
+print(marks["Radha"])

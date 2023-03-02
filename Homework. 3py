@@ -1,0 +1,15 @@
+'''
+Homework-3
+Sign in
+1. Take username and password 3times
+2. Add it to a dictionary
+3. Use it to login and say if they can sign in
+
+Also verify if they have already added and if they havent, allow sign in
+
+'''
+
+'''
+Signup as well
+
+'''

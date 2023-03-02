@@ -9,7 +9,7 @@ Day 2 - Assignment
 
 lst=[]
 for n in range(0,5):
-    lst[n]=int(input("Enter the number :")
+    lst[n]=int(input("Enter the number :"))
 
 lst1=[]
 i=0

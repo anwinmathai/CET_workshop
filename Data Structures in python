@@ -37,4 +37,3 @@ for element in a:
     print(a[element])
 
 
-#get even numbers in a list to another list and print it.

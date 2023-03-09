@@ -1,7 +1,9 @@
 '''
+Question in an IBM Test
+-------------------------
 Take in a string
-each letters how many times
-display the max number key
+Each letters how many times
+Display the max number key
 '''
 
 string=input("Enter the string to evaluate:") # Taking in the string to evaluate

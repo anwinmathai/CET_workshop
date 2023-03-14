@@ -20,8 +20,17 @@ def display_message():
 display_message()
 
 #Example 2: With argument no return
-def display_message(sdf)
+def display_message(sdf):
     print(sdf)
 
 x=input("Enter the stuff to print: ")
 display_message(x)
+
+#Example 3: With argument With return
+
+def add(y,x):
+    return x+y
+
+result=add(10,5)
+print(result)
+

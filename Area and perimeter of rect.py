@@ -1,14 +1,23 @@
-def perimeter(1,w):
-    return 2*(1+w)
+"""
+Area and Perimeter of a rectangle using functions for both.
+Length and width are taken as input
+"""
 
-def area(1,w):
-    area_rectangle=1*w
-    perimeter_rectangle=perimeter(1,w)
+
+#Function to find the perimeter of the rectangle
+def perimeter(l,w):
+    return 2*(l+w)
+
+#Function to find the area of the rectangle
+def area(l,w):
+    area_rectangle=l*w
+    perimeter_rectangle=perimeter(l,w)
     return area_rectangle, perimeter_rectangle
 
-length=10
-width=6
+#Getting the length and the width of the rectangle from the user
+length=int(input("Enter the length of the rectangle :"))
+width=int(input("Enter the width of the rectangle :"))
 
-areaofrectangle,perimeterofrectangle=area(10,6)
+areaofrectangle,perimeterofrectangle=area(length,width)
 
-print(areaofrectangle,perimeterofrectangle)
+print("Area of the Rectangle is :",areaofrectangle, "and perimeter of the Rectangle is :",perimeterofrectangle)

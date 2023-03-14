@@ -82,7 +82,7 @@ with open("evens.txt","r") as file:
 # Automatically closes the file
 with open("evens.txt","a") as file:
     print(file.write("End"))
-
+ #Going to check if its there
 with open("evens.txt","r") as file:
     print(file.read())
     
